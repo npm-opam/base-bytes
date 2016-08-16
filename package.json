@@ -41,7 +41,7 @@
         "dependency-env": "https://github.com/npm-ml/dependency-env.git",
         "substs": "https://github.com/yunxing/substs.git",
         "nopam": "https://github.com/yunxing/nopam.git",
-        "opam-installer": "https://github.com/yunxing/opam-installer-bin.git"
+        "opam-installer-bin": "https://github.com/yunxing/opam-installer-bin.git"
     },
     "scripts": {
         "postinstall": "eval $(dependencyEnv) && nopam && (opam-installer --prefix=$opam_prefix || true)"
