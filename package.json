@@ -1,31 +1,42 @@
 {
     "version": "0.0.0",
     "exportedEnvVars": {
-        "base_bytes_installed": {
+        "base_bytes_version": {
             "global": true,
             "globalCollisionBehavior": "clobber",
-            "val": "true"
-        },
-        "PATH": {
-            "global": true,
-            "resolveAsRelativePath": true,
-            "globalCollisionBehavior": "joinPath",
-            "val": "./_build/ocamlfind/bin"
+            "val": "0.0.0"
         },
         "base_bytes_enable": {
             "global": true,
             "globalCollisionBehavior": "clobber",
             "val": "enable"
         },
+        "base_bytes_installed": {
+            "global": true,
+            "globalCollisionBehavior": "clobber",
+            "val": "true"
+        },
         "FINDLIB": {
             "global": true,
             "resolveAsRelativePath": true,
             "globalCollisionBehavior": "joinPath",
             "val": "./_build/ocamlfind/lib"
+        },
+        "version": {
+            "global": true,
+            "globalCollisionBehavior": "clobber",
+            "val": "0.0.0"
+        },
+        "PATH": {
+            "global": true,
+            "resolveAsRelativePath": true,
+            "globalCollisionBehavior": "joinPath",
+            "val": "./_build/ocamlfind/bin"
         }
     },
     "name": "base-bytes",
     "dependencies": {
+        "substs": "https://github.com/yunxing/opam-installer-bin.git",
         "ocamlfind": "https://github.com/npm-opam/ocamlfind",
         "nopam": "https://github.com/yunxing/nopam.git",
         "ocaml": "https://github.com/npm-opam/ocaml.git#npm-4.02.3",
