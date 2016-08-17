@@ -1,5 +1,6 @@
 {
-    "version": "0.0.0",
+    "optDependencies": {},
+    "name": "base-bytes",
     "exportedEnvVars": {
         "base_bytes_version": {
             "global": true,
@@ -34,7 +35,7 @@
             "val": "./_build/ocamlfind/bin"
         }
     },
-    "name": "base-bytes",
+    "version": "0.0.0",
     "dependencies": {
         "ocamlfind": "https://github.com/npm-opam/ocamlfind",
         "ocaml": "https://github.com/npm-opam/ocaml.git#npm-4.02.3",
